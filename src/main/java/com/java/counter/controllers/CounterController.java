@@ -34,12 +34,12 @@ public class CounterController {
         return "counter.jsp";
     }
 	
-//	@RequestMapping("/reset")
-//	public String resetCount(HttpSession session, Model model) {
-//	Integer currentCount = (Integer) session.getAttribute("count");
-//	currentCount = 0;
-//	session.setAttribute("count", currentCount);
-//		
-//		return "counter.jsp";
-//	}
+	@RequestMapping("/reset")
+	public String resetCount(HttpSession session, Model model) {
+	Integer currentCount = (Integer) session.getAttribute("count");
+	currentCount = 0;
+	session.setAttribute("count", currentCount);
+		
+		return "reset.jsp";
+	}
 }	

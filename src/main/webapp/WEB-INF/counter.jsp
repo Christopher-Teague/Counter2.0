@@ -21,11 +21,24 @@
 </head>
 <body>
 	<div class="container d-flex justify-content-center">
+		
 		<div>
-			<h1 class="mt-5">You have visited the counter <c:out value="${countToShow}"/> times...</h1>		
-			<a href="/" class="btn btn-primary">Count more?</a>
+			<div class="d-flex justify-content-center">
+	
+				<h1 class="mt-5">You have visited the counter <c:out value="${countToShow}"/> times...</h1>
+		
+			</div>
+			<div class="d-flex justify-content-around mt-5">
+				<div>
+					<a href="/" class="btn btn-primary">Get back to counting!</a>
+				</div>
+				<div>
+					<a href="/reset" class="btn btn-danger">Reset Count?</a>
+				</div>
+		
+			</div>
+		</div>			
 			
-		</div>
 	</div>
 
 </body>

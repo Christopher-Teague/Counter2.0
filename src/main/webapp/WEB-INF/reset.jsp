@@ -15,23 +15,23 @@
 <!-- For any Bootstrap that uses JS or jQuery-->
 <script src="/webjars/jquery/jquery.min.js"></script>
 <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
-
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
+
 <body>
-	
-	<div class="container d-flex justify-content-center">
+	<div class="container justify-content-center">
 		<div>
-			<div class="justify-content-center">
-				<h1 class="mt-5">Welcome the the Counter!</h1>
-				<p>refresh page to increase count...</p>
+			<div class="d-flex justify-content-center">
+	
+				<h1 class="mt-5">You have reset the count...</h1>
+		
 			</div>
 			<div class="d-flex justify-content-center mt-5">
-				<a href="/counter" class="btn btn-primary justify-content-center">View Count</a>		
+				<a href="/" class="btn btn-primary">Get back to counting!</a>
+		
 			</div>
-		</div>				
+		</div>
 	</div>
-
 </body>
 </html>
